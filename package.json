@@ -1,0 +1,20 @@
+{
+  "name": "todo-with-mongodb-js-app",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "watch": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.3.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {},
+  "description": ""
+}
