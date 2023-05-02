@@ -12,7 +12,7 @@ app.use(express.static("public"))
 
 async function go() {
     // ('') = where to connect it to from mongoDB | after .net/ add "db name"
-    let client = new MongoClient('mongodb+srv://toDoUser:11011996@cluster2023.7lhom7b.mongodb.net/ToDoApp?retryWrites=true&w=majority')
+    let client = new MongoClient('mongodb+srv://toDoUser:face2015@cluster2023.7lhom7b.mongodb.net/ToDoApp?retryWrites=true&w=majority')
     await client.connect() // await needs to be inside an async function
     db = client.db() // this line requires the line above to be finished beforehand - THUS AWAIT
     app.listen(4000)
